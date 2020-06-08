@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beer Store</title>
+        <link rel="stylesheet" href="style/form.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="topnav">
+                <a class="logo" href="index.html"><img src="images/logo.png"></a>
+                <a class="active" href="index.html">Home</a>
+                <a class="active" href="all-beers.html">See all beers</a>
+                <a class="active" href="order.html">Order a beer</a>
+                <a class="right active" href="register.html">Register</a>
+                <a class="right active" href="login.html">Log in</a>
+            </div>
+        </nav>
+        <main>
+            <center>
+                <h1>Order a beer</h1>
+                <form>
+                    <label>Brand</label><br>
+                    <select>
+                        <option selected disabled>Select a Brand</option>
+                        <option>Corona Extra 330ml</option>
+                        <option>Stella Artois 500ml</option>
+                        <option>Carlsberg 330 ml</option>
+                        <option>Heineken 330ml</option>
+                    </select><br><br>
+                    <label>Quantity</label><br>
+                    <input placeholder="Enter amount of beer(1-15)" type="number" min="1" max="15"><br><br>
+                    <label>Destination</label><br>
+                    <select>
+                        <option selected disabled>Select destination</option>
+                        <option>stockholm</option>
+                        <option>goteborg</option>
+                        <option>malmo</option>
+                    </select><br><br>
+                    <label>Enter your birthdate</label><br>
+                    <input type="date" placeholder="YYYY-MM-DD"><br><br>
+                    <label>Got an opinion,comment,recommendation?Share it with us!</label><br>
+                    <input type="textarea" placeholder="Share your opinion with us!"><br><br>
+                    <input type="submit" value="Login">
+                </form>
+            </center>
+        </main>
+        <footer>
+            <hr/>
+            <p><em>&copy; 2020-Beer Store</em></p>
+        </footer>
+    </body>
+</html>
